@@ -26,6 +26,10 @@ class Account:
     def __str__(self):
         return f"{self.acno} - {self.ahname} - {self.balance}"
 
+    def __eq__(self, other):
+        return self.acno == other.acno
+
+
 
 print(Account.getminbal())
 a1 = Account(1, "Roberts")  # Object
