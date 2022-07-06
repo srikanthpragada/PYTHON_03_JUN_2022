@@ -5,3 +5,6 @@ def numbers(count):
 
 nums = numbers(5)
 print(nums)
+print(next(nums))
+print(next(nums))
+
