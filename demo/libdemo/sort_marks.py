@@ -5,6 +5,6 @@ for m in sorted(f.readlines(),
                 reverse=True):
     print(m.strip())
 
-     
+
 
 f.close()
