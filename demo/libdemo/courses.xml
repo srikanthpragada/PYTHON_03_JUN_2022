@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="" ?>
+<courses>
+    <course>
+        <title>Python</title>
+        <duration>36</duration>
+        <fee currency="INR">5000</fee>
+    </course>
+    <course>
+        <title>Java EE</title>
+        <duration>40</duration>
+        <fee currency="INR">6000</fee>
+    </course>
+    <course>
+        <title>React</title>
+        <duration>12</duration>
+        <fee currency="USD">100</fee>
+    </course>
+</courses>
