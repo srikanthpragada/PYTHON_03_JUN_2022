@@ -13,7 +13,8 @@ for line in f.readlines():
 
     try:
         id, salary = parts
-        cur.execute("update employees set salary = ? where id = ?", (salary, id))
+        cur.execute("update employees set salary = ? where id = ?",
+                     (salary, id))
         if cur.rowcount == 1:
             # print(f"Updated Employee {id} Successfully!")
             updated += 1

@@ -21,7 +21,7 @@ for emp in cur.fetchall():
 cur.close()
 con.close()
 
-print(json.dumps(employees))
+print(json.dumps(employees)) # list of dict to array of json objects
 
 # Write to file
 f = open("employees.json", "wt")
